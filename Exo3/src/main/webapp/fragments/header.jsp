@@ -17,7 +17,7 @@
                 <a class="nav-link text-white" href="catList">Liste des chats</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="formCat">Ajouter un chat</a>
+                <a class="nav-link text-white" href="catForm">Ajouter un chat</a>
             </li>
         </ul>
     </nav>

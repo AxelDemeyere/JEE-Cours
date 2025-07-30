@@ -1,7 +1,11 @@
-<form action="addCat" method="post">
+<form action="${pageContext.request.contextPath}/catForm" method="post">
     <div class="mb-3">
         <label for="name" class="form-label">Nom</label>
         <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="race" class="form-label">Race</label>
+        <input type="text" class="form-control" id="race" name="race" required>
     </div>
     <div class="mb-3">
         <label for="favoriteFood" class="form-label">Nourriture favorite</label>
