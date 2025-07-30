@@ -20,7 +20,7 @@
                     <a href="${pageContext.request.contextPath}/dogList" class="btn btn-primary">Retour a la liste</a>
                     <a href="${pageContext.request.contextPath}/dogEdit?id=${dog.id}" class="btn btn-warning">Modifier</a>
                     <a href="${pageContext.request.contextPath}/dogDelete?id=${dog.id}" class="btn btn-danger"
-                       onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce chien ?')">Supprimer</a>
+                       onclick="return confirm('Etes-vous sur de vouloir supprimer ce chien ?')">Supprimer</a>
                 </div>
             </div>
         </div>
