@@ -1,3 +1,4 @@
+<jsp:useBean id="personList" scope="request" />
 <table class="table">
     <thead>
     <tr>
