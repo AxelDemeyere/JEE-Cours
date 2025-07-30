@@ -1,4 +1,4 @@
-package org.app.exo3.utils;
+package org.app.exo4.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;

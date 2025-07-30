@@ -12,7 +12,6 @@ public class CatService implements ICatService {
     private static CatService instance;
 
     private CatService() {
-        // Constructeur privé pour empêcher l'instanciation directe
     }
 
     public static CatService getInstance() {
